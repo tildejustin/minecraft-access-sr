@@ -1,0 +1,39 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.khanshoaib3.minecraft_access.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "AnimatedResultButtonMixin",
+    "BookEditScreenMixin",
+    "BookScreenMixin",
+    "ButtonWidgetMixin",
+    "ChatScreenMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "DurabilityMixin",
+    "EyeOfEnderEntityMixin",
+    "InGameHudMixin",
+    "MinecraftClientMixin",
+    "NarratorLinuxMixin",
+    "NarratorWindowsMixin",
+    "PageTurnWidgetMixin",
+    "ScreenMixin",
+    "TextFieldWidgetMixin",
+    "accessor.AnimatedResultButtonAccessor",
+    "accessor.AnvilScreenAccessor",
+    "accessor.ChatHudAccessor",
+    "accessor.ClickableWidgetAccessor",
+    "accessor.CreativeInventoryScreenAccessor",
+    "accessor.HandledScreenAccessor",
+    "accessor.LoomScreenAccessor",
+    "accessor.MerchantScreenAccessor",
+    "accessor.MobSpawnerLogicAccessor",
+    "accessor.RecipeBookResultsAccessor",
+    "accessor.RecipeBookWidgetAccessor",
+    "accessor.SlotAccessor",
+    "accessor.StonecutterScreenAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
